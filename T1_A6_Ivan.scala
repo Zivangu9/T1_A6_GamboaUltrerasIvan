@@ -12,8 +12,8 @@ import scala.io.StdIn._
 import scala.collection.mutable.ArrayBuffer
 object Prueba{	
 	def main(args: Array[String]): Unit ={
-        val size = 1000000
-        val patron = 100
+        val size = 5000
+        val patron = 15
         var flag = true;
         while(flag){
             print("¿Deseas llenar el archivo con nuevos datos?(0=No,1=Si)")
